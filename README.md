@@ -1,6 +1,6 @@
 
 
-#####安装curl工具
+###安装curl工具
 
 `sudo apt install curl`
 
