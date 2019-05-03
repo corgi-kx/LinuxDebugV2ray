@@ -1,4 +1,6 @@
 
+# ubuntu19.04安装调试v2ray客户端,以及配置代理
+
 
 **安装curl工具**
 
@@ -8,13 +10,14 @@
 
 `bash <(curl -L -s https://install.direct/go.sh)`
 
->说明
-此脚本会自动安装以下文件：
-/usr/bin/v2ray/v2ray：V2Ray 程序；
-/usr/bin/v2ray/v2ctl：V2Ray 工具；
-/etc/v2ray/config.json：配置文件；
-/usr/bin/v2ray/geoip.dat：IP 数据文件
-/usr/bin/v2ray/geosite.dat：域名数据文件
+>
+说明
+* 此脚本会自动安装以下文件：
+* /usr/bin/v2ray/v2ray：V2Ray 程序；
+* /usr/bin/v2ray/v2ctl：V2Ray 工具；
+* /etc/v2ray/config.json：配置文件；
+* /usr/bin/v2ray/geoip.dat：IP 数据文件
+* /usr/bin/v2ray/geosite.dat：域名数据文件
 
 **根据你服务器端的配置来修改/etc/v2ray/config.json配置文件（如果安装过windows版，可以去该软件下 导出配置文件 粘贴到此目录下）**
 
