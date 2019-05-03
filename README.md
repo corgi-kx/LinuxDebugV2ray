@@ -1,10 +1,10 @@
 
 
-#####安装curl工具#####
+**安装curl工具
 
 `sudo apt install curl`
 
-#####安装完成后执行v2ray官方脚本#####
+**安装完成后执行v2ray官方脚本
 
 `bash <(curl -L -s https://install.direct/go.sh)`
 
@@ -16,9 +16,10 @@
 /usr/bin/v2ray/geoip.dat：IP 数据文件
 /usr/bin/v2ray/geosite.dat：域名数据文件
 
-#####根据你服务器端的配置来修改/etc/v2ray/config.json配置文件（如果安装过windows版，可以去该软件下 导出配置文件 粘贴到此目录下）
+**根据你服务器端的配置来修改/etc/v2ray/config.json配置文件（如果安装过windows版，可以去该软件下 导出配置文件 粘贴到此目录下）
 
-    {
+```
+{
     "log": {
      "access": "",
     "error": "",
@@ -121,14 +122,14 @@
     "rules": []
     }
     }
+```
 
 
-
-#####启动v2ray
+**启动v2ray
 
 `service v2ray start`
 
-#####查看是否启动v2ray
+**查看是否启动v2ray
 
 `service v2ray status`
 
@@ -136,10 +137,11 @@
 
 
 
-#####到此步骤v2ray算是安装配置完成了，但是如果想成功访问谷歌 还需要配置代理设置
+**到此步骤v2ray算是安装配置完成了，但是如果想成功访问谷歌 还需要配置代理设置
+
 >代理设置就是config.json里面写的，一般设置成127.0.0.1 端口号 1080
 
-#####我本人使用的chrome浏览器 ---> 设置----> 高级-----> 无障碍-----> 打开代理设置------> 设置手动里面的代理ip
+**我本人使用的chrome浏览器 ---> 设置----> 高级-----> 无障碍-----> 打开代理设置------> 设置手动里面的代理ip
 
 ![](https://upload-images.jianshu.io/upload_images/17680481-a3901a19b567f1ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
