@@ -1,10 +1,10 @@
 
 
-###安装curl工具
+#####安装curl工具#####
 
 `sudo apt install curl`
 
-#####安装完成后执行v2ray官方脚本
+#####安装完成后执行v2ray官方脚本#####
 
 `bash <(curl -L -s https://install.direct/go.sh)`
 
